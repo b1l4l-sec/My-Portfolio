@@ -361,7 +361,7 @@ After deployment:
 
 ## Contact & Support
 
-**Created for:** Bilal Lbien (b1l4l)
+**Creater:** Bilal Lbien (b1l4l)
 
 **Technologies:** PHP, MySQL, HTML5, CSS3, JavaScript
 
