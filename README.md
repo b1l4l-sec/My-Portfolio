@@ -1,4 +1,4 @@
-# Bilal Lbien - Portfolio Website
+# Bilal Lbien - Portfolio Website : https://b1l4l-sec.wuaze.com/
 
 A production-ready, futuristic cybersecurity-themed portfolio website with complete admin panel for managing content.
 
@@ -66,17 +66,6 @@ define('DB_NAME', 'your_database');
 define('DB_USER', 'your_username');
 define('DB_PASS', 'your_password');
 ```
-
-### 4. Update Site URL
-
-In `config/config.php`, update:
-```php
-define('SITE_URL', 'https://your-domain.infinityfreeapp.com');
-```
-
-### 5. Set Permissions
-
-Ensure the `uploads/` directory has write permissions (755 or 777)
 
 ## Default Admin Credentials
 
@@ -221,6 +210,4 @@ All rights reserved. Created for Bilal Lbien (b1l4l).
 - Font: Inter by Rasmus Andersson
 - Icons: Custom SVG designs
 
----
 
-**Note:** This portfolio is optimized for InfinityFree hosting but can be deployed on any shared hosting platform with PHP 7.4+ and MySQL support.
