@@ -1,8 +1,5 @@
 # Bilal Lbien Portfolio - Complete Project Summary
 
-## Project Overview
-A production-ready, futuristic cybersecurity-themed portfolio website with complete admin panel. Built with PHP, MySQL, and modern web technologies, optimized for InfinityFree hosting.
-
 ## Complete File Structure
 
 ```
