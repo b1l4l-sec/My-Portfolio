@@ -17,10 +17,10 @@ CREATE TABLE IF NOT EXISTS `admin_users` (
   UNIQUE KEY `email` (`email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- Insert default admin user (password: )
--- Password hash generated with: password_hash('', PASSWORD_DEFAULT)
+-- Insert default admin user (password: newpass)
+-- Password hash generated with: password_hash('newpass', PASSWORD_DEFAULT)
 INSERT INTO `admin_users` (`username`, `password`, `email`) VALUES
-('admin', '$2y$10$CS5W64H5Q/1IqmpT.KIif..XkYdmCJI0qRs/j9oBMg5Pik8T4GA0S', 'admin@bilallbien.com');
+('admin', '$2y$10$etlL2LNF4xQqzIq.SATgCOiYVaLB/PHkJXwRLp7m0oMQ2lrMTMs8G', 'admin@bilallbien.com');
 
 -- Skills Table
 CREATE TABLE IF NOT EXISTS `skills` (
