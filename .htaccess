@@ -5,7 +5,7 @@
 RewriteEngine On
 
 # Set RewriteBase - Change to / when deploying to root domain
-RewriteBase /portfolio/
+RewriteBase /
 
 # Force HTTPS (uncomment when deployed with SSL)
 # RewriteCond %{HTTPS} off
@@ -51,8 +51,8 @@ RewriteRule ^admin/resume$ admin/resume.php [L]
 RewriteRule ^contact$ contact.php [L]
 
 # Error Pages
-ErrorDocument 404 /portfolio/index.php
-ErrorDocument 500 /portfolio/index.php
+ErrorDocument 404 /index.php
+ErrorDocument 500 /index.php
 
 # Security Headers
 <IfModule mod_headers.c>
