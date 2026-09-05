@@ -17,8 +17,8 @@ CREATE TABLE IF NOT EXISTS `admin_users` (
   UNIQUE KEY `email` (`email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- Insert default admin user (password: bilal0606411104)
--- Password hash generated with: password_hash('bilal0606411104', PASSWORD_DEFAULT)
+-- Insert default admin user (password: )
+-- Password hash generated with: password_hash('', PASSWORD_DEFAULT)
 INSERT INTO `admin_users` (`username`, `password`, `email`) VALUES
 ('admin', '$2y$10$CS5W64H5Q/1IqmpT.KIif..XkYdmCJI0qRs/j9oBMg5Pik8T4GA0S', 'admin@bilallbien.com');
 
