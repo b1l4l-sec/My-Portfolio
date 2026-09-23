@@ -1,5 +1,5 @@
 # Bilal Lbien - Portfolio Website : 
-https://b1l4l-sec.wuaze.com/
+https://b1l4l.wuaze.com/
 
 A production-ready, futuristic cybersecurity-themed portfolio website with complete admin panel for managing content.
 
